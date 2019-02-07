@@ -16,7 +16,8 @@ My [javascript30](https://javascript30.com).
 - [x] 14 Must Know Dev Tools Tricks
 - [x] Hold Shift to Check Multiple Checkboxes
 - [x] Custom HTML5 Video Player
-- [ ] Key Sequence Detection (KONAMI CODE)
+- [x] Custom HTML5 Video Player
+- [x] Key Sequence Detection (KONAMI CODE)
 - [ ] Slide In on Scroll
 - [ ] Objects and Arrays - Reference VS Copy
 - [ ] LocalStorage and Event Delegation
@@ -36,5 +37,5 @@ My [javascript30](https://javascript30.com).
 - [ ] Countdown Clock
 - [ ] Whack A Mole Game
 
-**Catch-up progress:** Day 11/18<br>
-**Overall progress:** Day **11**/**30**
+**Catch-up progress:** Day 12/18<br>
+**Overall progress:** Day **12**/**30**
