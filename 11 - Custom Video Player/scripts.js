@@ -20,7 +20,7 @@ function updateButton() {
 
     if (this.paused == true) icon = '▶'; // If the video is paused, set the icon to a play button.
     else icon = '❚❚'; // If the video is playing, set the icon to a pause button.
-    
+
     toggle.textContent = icon; // Update the icon on the page.s
 }
 
@@ -34,13 +34,13 @@ function handleRangeUpdate() {
 
 function handleProgress() {
     const percent = (video.currentTime / video.duration) * 100; // Calculate the percentage of the video complete by getting the current time, dividing it by the video's duration and multiplying it by 100, so that it is a percentage.
-    
+
     progressBar.style.flexBasis = `${percent}%`; // Set the progress bar's flex basis style to the percentage.
 }
 
 function scrub(e) {
     const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration; // Calculate the scrub time by getting the percentage of the progress bar clicked, and multiplying it by the video's duration.
-    
+
     video.currentTime = scrubTime;
 }
 
