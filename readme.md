@@ -21,7 +21,7 @@ My [javascript30](https://javascript30.com) 🎉
 - [x] Slide In on Scroll
 - [x] Objects and Arrays - Reference VS Copy
 - [x] LocalStorage and Event Delegation
-- [ ] CSS Text Shadow Mouse Move Effect
+- [x] CSS Text Shadow Mouse Move Effect
 - [ ] Sorting Band Names without articles
 - [ ] Tally String Times with Reduce
 - [ ] Unreal Webcam Fun
@@ -37,5 +37,8 @@ My [javascript30](https://javascript30.com) 🎉
 - [ ] Countdown Clock
 - [ ] Whack A Mole Game
 
-**Catch-up progress:** Day 15/21<br>
-**Overall progress:** Day **15**/**30**
+## Extras
+- [ ] Improve upon LocalStorage
+
+**Catch-up progress:** Day 16/21<br>
+**Overall progress:** Day **16**/**30**
