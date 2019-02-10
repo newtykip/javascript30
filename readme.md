@@ -18,8 +18,8 @@ My [javascript30](https://javascript30.com).
 - [x] Custom HTML5 Video Player
 - [x] Custom HTML5 Video Player
 - [x] Key Sequence Detection (KONAMI CODE)
-- [ ] Slide In on Scroll
-- [ ] Objects and Arrays - Reference VS Copy
+- [x] Slide In on Scroll
+- [x] Objects and Arrays - Reference VS Copy
 - [ ] LocalStorage and Event Delegation
 - [ ] CSS Text Shadow Mouse Move Effect
 - [ ] Sorting Band Names without articles
@@ -37,5 +37,5 @@ My [javascript30](https://javascript30.com).
 - [ ] Countdown Clock
 - [ ] Whack A Mole Game
 
-**Catch-up progress:** Day 13/21<br>
-**Overall progress:** Day **13**/**30**
+**Catch-up progress:** Day 14/21<br>
+**Overall progress:** Day **14**/**30**
