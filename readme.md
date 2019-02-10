@@ -2,7 +2,7 @@
 
 # javascript30
 
-My [javascript30](https://javascript30.com).
+My [javascript30](https://javascript30.com) 🎉
 
 ## Checklist
 - [x] JavaScript Drum Kit
@@ -20,7 +20,7 @@ My [javascript30](https://javascript30.com).
 - [x] Key Sequence Detection (KONAMI CODE)
 - [x] Slide In on Scroll
 - [x] Objects and Arrays - Reference VS Copy
-- [ ] LocalStorage and Event Delegation
+- [x] LocalStorage and Event Delegation
 - [ ] CSS Text Shadow Mouse Move Effect
 - [ ] Sorting Band Names without articles
 - [ ] Tally String Times with Reduce
@@ -37,5 +37,5 @@ My [javascript30](https://javascript30.com).
 - [ ] Countdown Clock
 - [ ] Whack A Mole Game
 
-**Catch-up progress:** Day 14/21<br>
-**Overall progress:** Day **14**/**30**
+**Catch-up progress:** Day 15/21<br>
+**Overall progress:** Day **15**/**30**
