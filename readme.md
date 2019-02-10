@@ -22,7 +22,7 @@ My [javascript30](https://javascript30.com) 🎉
 - [x] Objects and Arrays - Reference VS Copy
 - [x] LocalStorage and Event Delegation
 - [x] CSS Text Shadow Mouse Move Effect
-- [ ] Sorting Band Names without articles
+- [x] Sorting Band Names without articles
 - [ ] Tally String Times with Reduce
 - [ ] Unreal Webcam Fun
 - [ ] Native Speech Recognition
@@ -40,5 +40,5 @@ My [javascript30](https://javascript30.com) 🎉
 ## Extras
 - [ ] Improve upon LocalStorage
 
-**Catch-up progress:** Day 16/21<br>
-**Overall progress:** Day **16**/**30**
+**Catch-up progress:** Day 17/21<br>
+**Overall progress:** Day **17**/**30**
