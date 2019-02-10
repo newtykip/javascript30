@@ -37,5 +37,5 @@ My [javascript30](https://javascript30.com).
 - [ ] Countdown Clock
 - [ ] Whack A Mole Game
 
-**Catch-up progress:** Day 12/18<br>
-**Overall progress:** Day **12**/**30**
+**Catch-up progress:** Day 13/21<br>
+**Overall progress:** Day **13**/**30**
