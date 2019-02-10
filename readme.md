@@ -23,7 +23,7 @@ My [javascript30](https://javascript30.com) 🎉
 - [x] LocalStorage and Event Delegation
 - [x] CSS Text Shadow Mouse Move Effect
 - [x] Sorting Band Names without articles
-- [ ] Tally String Times with Reduce
+- [x] Tally String Times with Reduce
 - [ ] Unreal Webcam Fun
 - [ ] Native Speech Recognition
 - [ ] Geolocation based Speedometer and Compass
@@ -40,5 +40,5 @@ My [javascript30](https://javascript30.com) 🎉
 ## Extras
 - [ ] Improve upon LocalStorage
 
-**Catch-up progress:** Day 17/21<br>
-**Overall progress:** Day **17**/**30**
+**Catch-up progress:** Day 18/21<br>
+**Overall progress:** Day **18**/**30**
