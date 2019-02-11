@@ -24,7 +24,7 @@ My [javascript30](https://javascript30.com) 🎉
 - [x] CSS Text Shadow Mouse Move Effect
 - [x] Sorting Band Names without articles
 - [x] Tally String Times with Reduce
-- [ ] Unreal Webcam Fun
+- [x] Unreal Webcam Fun
 - [ ] Native Speech Recognition
 - [ ] Geolocation based Speedometer and Compass
 - [ ] Follow Along Links
@@ -38,7 +38,8 @@ My [javascript30](https://javascript30.com) 🎉
 - [ ] Whack A Mole Game
 
 ## Extras
-- [ ] Improve upon LocalStorage
+- Improve upon LocalStorage
+- Improve upon Webcam
 
-**Catch-up progress:** Day 18/21<br>
-**Overall progress:** Day **18**/**30**
+**Catch-up progress:** Day 19/22<br>
+**Overall progress:** Day **19**/**30**
