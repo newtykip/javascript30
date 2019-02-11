@@ -1,3 +1,0 @@
-- [ ] Check all button
-- [ ] Clear all button
-- [ ] Uncheck all button
