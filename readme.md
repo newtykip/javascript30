@@ -5,6 +5,8 @@
 My [javascript30](https://javascript30.com) 🎉
 
 ## Checklist
+What I have done... 🤔
+
 - [x] JavaScript Drum Kit
 - [x] CSS + JS Clock
 - [x] Playing with CSS Variables and JS
@@ -38,8 +40,9 @@ My [javascript30](https://javascript30.com) 🎉
 - [ ] Whack A Mole Game
 
 ## Extras
-- Improve upon LocalStorage
-- Improve upon Webcam
+Check out these related extras! 🤗
+- [Improve upon LocalStorage](https://github.com/jsmiith/javascript30-localstorage)
+- [Improve upon Webcam](https://github.com/jsmiith/javascript30-webcam)
 
 **Catch-up progress:** Day 19/22<br>
 **Overall progress:** Day **19**/**30**

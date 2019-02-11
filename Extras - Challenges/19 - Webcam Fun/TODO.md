@@ -1,3 +1,0 @@
-- [ ] Extra Filters
-- [ ] Buttons for enabling/disabling filters
-- [ ] Prettier interface
