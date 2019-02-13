@@ -29,7 +29,7 @@ What I have done... 🤔
 - [x] Unreal Webcam Fun
 - [x] Native Speech Recognition
 - [x] Geolocation based Speedometer and Compass
-- [ ] Follow Along Links
+- [x] Follow Along Links
 - [ ] Speech Synthesis
 - [ ] Sticky Nav
 - [ ] Event Capture, Propagation, Bubbling and Once
@@ -46,5 +46,5 @@ Check out these related extras! 🤗
 - [Improved Webcam](https://github.com/jsmiith/javascript30-webcam)
 - [Improved Speech Recognition](https://github.com/jsmiith/javascript30-speechrecognition)
 
-**Catch-up progress:** Day 21/24<br>
-**Overall progress:** Day **21**/**30**
+**Catch-up progress:** Day 22/24<br>
+**Overall progress:** Day **22**/**30**
