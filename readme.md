@@ -27,7 +27,7 @@ What I have done... 🤔
 - [x] Sorting Band Names without articles
 - [x] Tally String Times with Reduce
 - [x] Unreal Webcam Fun
-- [ ] Native Speech Recognition
+- [x] Native Speech Recognition
 - [ ] Geolocation based Speedometer and Compass
 - [ ] Follow Along Links
 - [ ] Speech Synthesis
@@ -41,8 +41,10 @@ What I have done... 🤔
 
 ## Extras
 Check out these related extras! 🤗
-- [Improve upon LocalStorage](https://github.com/jsmiith/javascript30-localstorage)
-- [Improve upon Webcam](https://github.com/jsmiith/javascript30-webcam)
 
-**Catch-up progress:** Day 19/22<br>
+- [Improved LocalStorage](https://github.com/jsmiith/javascript30-localstorage)
+- [Improved Webcam](https://github.com/jsmiith/javascript30-webcam)
+- [Improved Speech Recognition](https://github.com/jsmiith/javascript30-speechrecognition)
+
+**Catch-up progress:** Day 20/24<br>
 **Overall progress:** Day **19**/**30**
