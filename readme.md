@@ -30,7 +30,7 @@ What I have done... 🤔
 - [x] Native Speech Recognition
 - [x] Geolocation based Speedometer and Compass
 - [x] Follow Along Links
-- [ ] Speech Synthesis
+- [x] Speech Synthesis
 - [ ] Sticky Nav
 - [ ] Event Capture, Propagation, Bubbling and Once
 - [ ] Stripe Follow Along Dropdown
@@ -46,5 +46,5 @@ Check out these related extras! 🤗
 - [Improved Webcam](https://github.com/jsmiith/javascript30-webcam)
 - [Improved Speech Recognition](https://github.com/jsmiith/javascript30-speechrecognition)
 
-**Catch-up progress:** Day 22/24<br>
-**Overall progress:** Day **22**/**30**
+**Catch-up progress:** Day 23/24<br>
+**Overall progress:** Day **23**/**30**
