@@ -28,7 +28,7 @@ What I have done... 🤔
 - [x] Tally String Times with Reduce
 - [x] Unreal Webcam Fun
 - [x] Native Speech Recognition
-- [ ] Geolocation based Speedometer and Compass
+- [x] Geolocation based Speedometer and Compass
 - [ ] Follow Along Links
 - [ ] Speech Synthesis
 - [ ] Sticky Nav
@@ -46,5 +46,5 @@ Check out these related extras! 🤗
 - [Improved Webcam](https://github.com/jsmiith/javascript30-webcam)
 - [Improved Speech Recognition](https://github.com/jsmiith/javascript30-speechrecognition)
 
-**Catch-up progress:** Day 20/24<br>
-**Overall progress:** Day **19**/**30**
+**Catch-up progress:** Day 21/24<br>
+**Overall progress:** Day **21**/**30**
