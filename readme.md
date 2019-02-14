@@ -39,11 +39,4 @@ What I have done... 🤔
 - [ ] Countdown Clock
 - [ ] Whack A Mole Game
 
-## Extras
-Check out these related extras! 🤗
-
-- [Improved LocalStorage](https://github.com/jsmiith/javascript30-localstorage)
-- [Improved Webcam](https://github.com/jsmiith/javascript30-webcam)
-- [Improved Speech Recognition](https://github.com/jsmiith/javascript30-speechrecognition)
-
 **Progress:** Day **24**/**30**
