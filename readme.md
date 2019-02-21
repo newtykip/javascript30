@@ -5,6 +5,7 @@
 My [javascript30](https://javascript30.com) 🎉
 
 ## Checklist
+
 What I have done... 🤔
 
 - [x] JavaScript Drum Kit
@@ -32,11 +33,11 @@ What I have done... 🤔
 - [x] Follow Along Links
 - [x] Speech Synthesis
 - [x] Sticky Nav
-- [ ] Event Capture, Propagation, Bubbling and Once
-- [ ] Stripe Follow Along Dropdown
-- [ ] Click and Drag to Scroll
-- [ ] Video Speed Controller UI
-- [ ] Countdown Clock
-- [ ] Whack A Mole Game
+- [x] Event Capture, Propagation, Bubbling and Once
+- [x] Stripe Follow Along Dropdown
+- [x] Click and Drag to Scroll
+- [x] Video Speed Controller UI
+- [x] Countdown Clock
+- [x] Whack A Mole Game
 
-**Progress:** Day **24**/**30**
+**Progress:** Complete!
