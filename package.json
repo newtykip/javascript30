@@ -1,0 +1,20 @@
+{
+  "name": "javascript30",
+  "version": "1.0.0",
+  "description": "My #javascript30 - completed February 2019",
+  "repository": "https://github.com/jsmiith/javascript30",
+  "author": "Jacob Smith",
+  "private": true,
+  "scripts": {
+    "lint": "xo"
+  },
+  "devDependencies": {
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "rules": {
+      "no-undef": 0,
+      "no-unused-vars": 0
+    }
+  }
+}

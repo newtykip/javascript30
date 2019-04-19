@@ -1,0 +1,32 @@
+:root {
+    --base: #ffc600; /* Base variable */
+    --spacing: 10px; /* Spacing variable */
+    --blur: 10px; /* Blur variable */
+}
+
+img {
+    padding: var(--spacing); /* Set the padding to the spacing variable */
+    background: var(--base); /* Set the background to the base variable */
+    filter: blur(var(--blur)); /* Set the blur filter to the blur variable */
+}
+
+.hl {
+    color: var(--base); /* Set the text color to the base variable */
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
