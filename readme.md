@@ -41,3 +41,18 @@ What I have done... 🤔
 - [x] Whack A Mole Game
 
 **Progress:** Complete!
+
+### Changelog (after completion)
+
+#### April 19th, 2019
+
+- Added social preview
+- Added xo
+- Linted
+
+#### March 3rd, 2019
+
+- Uploaded Day 7 (it seemed to be missing)
+- Fixed Day 24
+- Updated Day 14 so it didn't clear the console
+- Made Day 25 "nicer" (gave button text and changed querySelectorAll to querySelector)

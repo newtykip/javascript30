@@ -11,37 +11,45 @@ const ranges = player.querySelectorAll('.player__slider'); // Get time slider
 /* Build out functions */
 
 function togglePlay() {
-    if (video.paused) video.play(); // If the video is paused, play it.
-    else video.pause(); // If the video is playing, pause it.
+	// If the video is paused, play it.
+	if (video.paused) {
+		video.play();
+	} else {
+		video.pause();
+	}
 }
 
 function updateButton() {
-    var icon;
+	let icon;
 
-    if (this.paused == true) icon = '▶'; // If the video is paused, set the icon to a play button.
-    else icon = '❚❚'; // If the video is playing, set the icon to a pause button.
+	// If the video is paused, set the icon to a play button.
+	if (this.paused) {
+		icon = '▶';
+	} else {
+		icon = '❚❚';
+	}
 
-    toggle.textContent = icon; // Update the icon on the page.s
+	toggle.textContent = icon; // Update the icon on the page.s
 }
 
 function skip() {
-    video.currentTime += parseFloat(this.dataset.skip) // Set the video's time to the dataset's value, or the dataset's value and the video's current time.
+	video.currentTime += parseFloat(this.dataset.skip); // Set the video's time to the dataset's value, or the dataset's value and the video's current time.
 }
 
 function handleRangeUpdate() {
-    video[this.name] = this.value; // Get the name of the object, and find it in the video's UI. Then, set it to the object's value.
+	video[this.name] = this.value; // Get the name of the object, and find it in the video's UI. Then, set it to the object's value.
 }
 
 function handleProgress() {
-    const percent = (video.currentTime / video.duration) * 100; // Calculate the percentage of the video complete by getting the current time, dividing it by the video's duration and multiplying it by 100, so that it is a percentage.
+	const percent = (video.currentTime / video.duration) * 100; // Calculate the percentage of the video complete by getting the current time, dividing it by the video's duration and multiplying it by 100, so that it is a percentage.
 
-    progressBar.style.flexBasis = `${percent}%`; // Set the progress bar's flex basis style to the percentage.
+	progressBar.style.flexBasis = `${percent}%`; // Set the progress bar's flex basis style to the percentage.
 }
 
 function scrub(e) {
-    const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration; // Calculate the scrub time by getting the percentage of the progress bar clicked, and multiplying it by the video's duration.
+	const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration; // Calculate the scrub time by getting the percentage of the progress bar clicked, and multiplying it by the video's duration.
 
-    video.currentTime = scrubTime;
+	video.currentTime = scrubTime;
 }
 
 /* Hook up the event listeners */
@@ -59,7 +67,15 @@ ranges.forEach(range => range.addEventListener('change', handleRangeUpdate)); //
 ranges.forEach(range => range.addEventListener('mousemove', handleRangeUpdate)); // For each range, make sure that the update function runs when the mouse moves.
 
 let mousedown = false;
-progress.addEventListener('click', scrub); // When the progress bar is clicked, scrub to that time.
-progress.addEventListener('mousemove', (e) => mousedown && scrub(e)); // When the mouse moves on the progress bat, scrub to that time if the mouse is down.
-progress.addEventListener('mousedown', () => mousedown = true); // When the mouse is down on the progress bar, set mousedown to true.
-progress.addEventListener('mouseup', () => mousedown = false); // When the mouse isn't down on the progress bar, set mousedown to false.
+
+// When the progress bar is clicked, scrub to that time.
+progress.addEventListener('click', scrub);
+
+// When the mouse moves on the progress bat, scrub to that time if the mouse is down.
+progress.addEventListener('mousemove', e => mousedown && scrub(e));
+
+// When the mouse is down on the progress bar, set mousedown to true.
+progress.addEventListener('mousedown', () => mousedown = true); // eslint-disable-line no-return-assign
+
+// When the mouse isn't down on the progress bar, set mousedown to false.
+progress.addEventListener('mouseup', () => mousedown = false); // eslint-disable-line no-return-assign

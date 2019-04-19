@@ -1,75 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Understanding JavaScript's Capture</title>
-</head>
-
-<body class="bod">
-
-    <div class="one">
-        <div class="two">
-            <div class="three">
+    <head>
+        <meta charset="UTF-8">
+        <title>Understanding JavaScript's Capture</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="bod">
+        <div class="one">
+            <div class="two">
+                <div class="three">
+                </div>
             </div>
         </div>
-    </div>
 
-    <style>
-        html {
-            box-sizing: border-box;
-        }
-
-        *,
-        *:before,
-        *:after {
-            box-sizing: inherit;
-        }
-
-        div {
-            width: 100%;
-            padding: 100px;
-        }
-
-        .one {
-            background: thistle;
-        }
-
-        .two {
-            background: mistyrose;
-        }
-
-        .three {
-            background: coral;
-        }
-
-    </style>
-
-    <button>Once Example</button>
-    <script>
-        const divs = document.querySelectorAll('div');
-        const button = document.querySelector('button');
-
-        function logText(e) {
-            console.log(this.classList.value);
-            // e.stopPropagation(); // Stop bubbling, the user has clicked the one it wanted!
-
-            // console.log(this);
-        }
-
-        divs.forEach(div => div.addEventListener('click', logText, {
-            capture: false, // When true, make it bubble down rather than up
-            once: true // Listen for a click, and then unbind itself (same as running div.removeEventListener), so the event listener never runs again.
-        })); // For each div selected, add a click event listener that will run logText();
-
-        // "once" example
-        button.addEventListener('click', () => {
-            console.log('Click!')
-        }, {
-            once: true
-        });
-
-    </script>
-</body>
-
+        <button>Once Example</button>
+        
+        <script src="scripts.js"></script>
+    </body>
 </html>
