@@ -1,6 +1,7 @@
-![](https://javascript30.com/images/JS3-social-share.png)
-
-# javascript30
+<div align="center">
+	<img src="https://javascript30.com/images/JS3-social-share.png">
+	<h1>javascript30</h1>
+</div>
 
 My [javascript30](https://javascript30.com) 🎉
 
@@ -42,15 +43,9 @@ What I have done... 🤔
 
 **Progress:** Complete!
 
-### Changelog (after completion)
+## Changelog (after completion)
 
-#### April 19th, 2019
-
-- Added social preview
-- Added xo
-- Linted
-
-#### March 3rd, 2019
+### March 3rd, 2019
 
 - Uploaded Day 7 (it seemed to be missing)
 - Fixed Day 24
